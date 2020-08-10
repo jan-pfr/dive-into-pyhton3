@@ -1,6 +1,6 @@
 # Let's learn some phyton!
 The video I use : [Youtube](https://www.youtube.com/watch?v=_uQrJ0TkZlc&list=WL)  
-My current timestamp: 21:09
+My current timestamp: 48:38
 
 
   
