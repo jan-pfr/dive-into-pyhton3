@@ -7,6 +7,13 @@ print("Dein Alter ist " + str(age))
 age = input("Ändere dein Alter: ")
 message = f"Dein Profil: {name}, {surname} ist {age} Jahre alt, und hat einen Notendurchschnitt von {notendurchschnitt}"
 print(message)
+print("Länge: " + str(len(message)))
+print(message.upper())
+print(message.lower())
+print(message.find("J"))
+print(message.replace("n", "m"))
+boolean = "Jan" in message
+print(boolean)
 
 geburtsjahr = input("Dein Geburtsjahr: ")
 print(type(geburtsjahr))
