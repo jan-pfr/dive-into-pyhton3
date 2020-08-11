@@ -9,3 +9,12 @@ elif is_cold:
     print("Zieh dich warm an")
 else:
     print("Schönes Wetter heute")
+
+credit = False
+price = 100000
+
+if credit:
+    payment = price * 0.1
+else:
+    payment = price * 0.2
+print(f"down payment: ${int(payment)}")
