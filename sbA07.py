@@ -2,9 +2,9 @@ Zahlen = []
 for x in range(2, 101):
     Zahlen.append(x)
 print(f"Das sind alle Zahlen von 2 - 100, inklusive Primzahlen: {Zahlen}")
-def createListe(mainListe, vielfache):
+def createListe(vielfache):
     liste = []
-    for i in range(1, 101):
+    for i in range(vielfache, 101):
         y = i * vielfache
         if y >= 101:
             break
