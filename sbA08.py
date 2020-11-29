@@ -8,6 +8,7 @@ class Angestellter:
         self.Name = Name
         self.Wochenstunden = Wochenstunden
         self.Jahresgehalt = Jahresgehalt
+        print(f'{self.Name} wurde eingestellt; Gehalt: {self.Jahresgehalt}€; Arbeitszeit: {self.Wochenstunden} Stunden')
 
     def __str__(self):
         return f'Angestellter {self.Name}, {self.Wochenstunden} Wochenstunden, {self.Jahresgehalt}€ Jahresgehalt'
@@ -17,8 +18,11 @@ class Angestellter:
 
 Mitarb1 = Angestellter('Hans Wurst', 35, 50000)
 print(Mitarb1)
-
+i = 0
 while Mitarb1.Jahresgehalt <= 70000:
-     addValue = Mitarb1.Jahresgehalt * 0.03
-     Mitarb1.Gehaltsanpassung(addValue)
+     rise = Mitarb1.Jahresgehalt * 0.03
+     Mitarb1.Gehaltsanpassung(rise)
      print(f' Neues Gehalt: {Mitarb1.Jahresgehalt}')
+     i = i + 1
+
+print(f'{Mitarb1.Name} ist nun {i} Jahre in der Firma.')
