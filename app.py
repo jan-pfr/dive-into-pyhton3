@@ -1,3 +1,4 @@
+"""
 import math # importing modules
 name = "Jan"
 surname = "Pfeiffer"
@@ -41,5 +42,5 @@ x = 20.4
 print(round(x))
 print(abs(-3.5)) # absolut number
 print(math.floor(3.1))
-
+"""
 
